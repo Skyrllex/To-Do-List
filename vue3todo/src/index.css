@@ -1,0 +1,111 @@
+#app {
+  font-family: 'Times New Roman', Times, serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+main{
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.one-task-style{
+  margin-left: -30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  border:solid 1px brown;
+  padding: 16px;
+  background-color: rgb(233, 204, 236);
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.one-task-style-true{
+  margin-left: -30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  border:solid 1px rgb(54, 88, 54);
+  padding: 16px;
+  background-color: rgb(154, 192, 156);
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.h3_task-true{
+  background-color: rgb(69, 114, 80);
+  border:1px rgb(14, 5, 10);
+  border-style:ridge;
+  border-radius: 20px;
+  padding-left: 5px;
+}
+
+#p_task{
+  width:400px;
+  font-family:'Courier New', Courier, monospace;
+  overflow: hidden;
+  height: 100%;
+}
+
+.h3_task{
+  background-color: rgb(167, 67, 206);
+  border:1px rgb(14, 5, 10);
+  border-style:ridge;
+  border-radius: 20px;
+  padding-left: 5px;
+}
+
+textarea:hover { 
+  border: 1px solid  aliceblue; 
+  background-color: rgb(75, 73, 73);
+
+} 
+
+input:hover { 
+  border: 1px solid  aliceblue; 
+  background-color: rgb(75, 73, 73);
+
+} 
+button:hover { 
+  border: 1px solid  aliceblue; 
+  background-color: rgb(75, 73, 73);
+
+} 
+.one-task-style:hover{
+  border:solid 1px rgb(54, 15, 15);
+  background-color: rgb(232, 150, 241);
+}
+button, input{
+  color: aliceblue;
+  border:solid 1px brown;
+  background-color: black;
+  padding: 6px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input2
+{
+  height: 200px;
+  color: aliceblue;
+  border:solid 1px brown;
+  background-color: black;
+  padding: 3px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.my-list{
+  display: grid;
+  grid-template-rows:auto;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+  border-radius: 50px;
+  border:solid 1px brown;
+  padding: 16px;
+  background-color: rgb(233, 204, 236);
+}
